@@ -1,9 +1,9 @@
 variable "key_name" {
-  default = "keypairforOregon"
+  default = "vinnikey"
 }
 
 variable "pvt_key" {
-  default = "/root/.ssh/sshkey.pem"
+  default = "/root/.ssh/vkey.pem"
 }
 
 variable "us-east-zones" {
@@ -11,5 +11,5 @@ variable "us-east-zones" {
 }
 
 variable "sg-id" {
-  default = "sg-00c58faccda5e161b"
+  default = "sg-0ab4771577b966dd3"
 }
